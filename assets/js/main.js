@@ -1,5 +1,20 @@
-window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
+// window.onload = function() {setTimeout(function(){document.body.style.opacity="100";},500);};
 
+$(document).ready(function() {
+  
+    setTimeout(function() {
+      $('#ctn-preloader').addClass('loaded');
+      $('body').removeClass('no-scroll-y');
+  
+      if ($('#ctn-preloader').hasClass('loaded')) {
+        $('#preloader').delay(1000).queue(function() {
+          $(this).remove();
+        });
+      }
+    }, 3000);
+    
+  });
+  
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
