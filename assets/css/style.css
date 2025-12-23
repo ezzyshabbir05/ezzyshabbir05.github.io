@@ -28,7 +28,7 @@
   --fontSize-2: 5rem;
   --fontSize-3: 3.8rem;
   --fontSize-4: 3.4rem;
-  --fontSize-5: 2rem;
+  --fontSize-5: 2.2rem;
   --fontSize-6: 2.5rem;
   --fontSize-7: 2rem;
   --fontSize-8: 1.8rem;
@@ -944,7 +944,7 @@ address.footer-text {
 
 @media (min-width: 768px) {
   :root {
-    --fontSize-5: 2.5rem;
+    --fontSize-5: 2.6rem;
     --fontSize-4: 4.2rem;
     --fontSize-2: 7.8rem;
     --fontSize-3: 6.6rem;
@@ -1137,7 +1137,7 @@ address.footer-text {
 
 @media (min-width: 1400px) {
   :root {
-    --fontSize-5: 3rem;
+    --fontSize-5: 3.1rem;
     --fontSize-2: 9rem;
   }
 
