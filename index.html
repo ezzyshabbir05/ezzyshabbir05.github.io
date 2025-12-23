@@ -2,257 +2,349 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!--==================== UNICONS ====================-->
-	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-	<!--==================== CSS ====================-->
-	<link rel="stylesheet" href="assets/css/styles.css" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-	<!--==================== ICON ====================-->
-	<link rel="icon" type="image/x-icon" href="">
-	<!--==================== JS ====================-->
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-	<title>Shabbir Ezzy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shabbir Ezzy - Full Stack Developer</title>
+    <meta name="title" content="Shabbir Ezzy - Full-Stack Developer Portfolio">
+    <meta name="description" content="Portfolio of Full-Stack Developer Shabbir Ezzy">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body class="dark-theme no-scroll-y">
-		<!--==================== PRELOADER ====================-->
-	<section>
-		<div id="preloader">
-			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="animation-preloader">
-					<div class="spinner"></div>
-					<div class="txt-loading">
-						<span data-text-preloader="L" class="letters-loading">
-							L
-						</span>
-						
-						<span data-text-preloader="O" class="letters-loading">
-							O
-						</span>
-						
-						<span data-text-preloader="A" class="letters-loading">
-							A
-						</span>
-						
-						<span data-text-preloader="D" class="letters-loading">
-							D
-						</span>
-						
-						<span data-text-preloader="I" class="letters-loading">
-							I
-						</span>
-						
-						<span data-text-preloader="N" class="letters-loading">
-							N
-						</span>
-						
-						<span data-text-preloader="G" class="letters-loading">
-							G
-						</span>
-					</div>
-				</div>	
-				<div class="loader-section section-left"></div>
-				<div class="loader-section section-right"></div>
-			</div>
-		</div>
-	</section>
-	<!--==================== HEADER ====================-->
-	<header class="header" id="header">
-		<nav class="nav container"> <a href="#" class="nav__logo">Shabbir Ezzy</a>
-			<div class="nav__menu" id="nav-menu">
-				<ul class="nav__list grid">
-					<li class="nav__item">
-						<a href="#home" class="nav__link"> <i class="uil uil-estate nav__icon"></i> Home</a>
-					</li>
-					<li class="nav__item">
-						<a href="#about" class="nav__link"> <i class="uil uil-user nav__icon"></i> About</a>
-					</li>
-					<li class="nav__item">
-						<a href="#skills" class="nav__link"> <i class="uil uil-file-alt nav__icon"></i> Skills</a>
-					</li>
-					<li class="nav__item">
-						<a href="#contact" class="nav__link"> <i class="uil uil-message nav__icon"></i> Contact</a>
-					</li>
-				</ul> <i class="uil uil-times nav__close" id="nav-close"></i>
-			</div>
-			<div class="nav__btns"> <i class="uil uil-moon change-theme" id="theme-button"></i>
-				<div class="nav__toggle" id="nav-toggle"> <i class="uil uil-apps"></i>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<!--==================== MAIN ====================-->
-	<main class="main">
-		<!--==================== HOME ====================-->
-		<section class="home section" id="home">
-			<div class="home__container container grid">
-				<div class="home__content grid">
-					<div class="home__social">
-						<a href="https://www.linkedin.com/in/ezzyshabbir05/" target="blank" class="home__social-icon"> <i class="uil uil-linkedin-alt"></i>
-						</a>
-						<a href="https://github.com/ezzyshabbir05" target="blank" class="home__social-icon"> <i class="uil uil-github-alt"></i>
-						</a>
-						<a href="https://www.instagram.com/ezzyshabbir05/" target="blank" class="home__social-icon"> <i class="uil uil-instagram"></i>
-						</a>
-					</div>
-					<div class="home__img">
-						<svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-							<mask id="mask0" mask-type="alpha">
-								<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-							</mask>
-							<g mask="url(#mask0)">
-								<path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-								<image class="home__blob-img" x="10" y="20" xlink:href="assets/img/character.png" />
-							</g>
-						</svg>
-					</div>
-					<div class="home__data">
-						<h1 class="home__title">Hi, I'am Shabbir Ezzy</h1>
-						<h3 class="home__subtitle">Web Developer</h3>
-						<p class="home__description"></p> <a href="#contact" class="button button--flex">
-                Contact Me<i class="uil uil-message button__icon"></i>
-              </a>
-					</div>
-				</div>
-				<div class="home__scroll">
-					<a href="#about" class="home__scroll-button button--flex"> <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-						<span class="home__scroll-name">Scroll Down</span>
-						<i class="uil uil-arrow-down home__scroll-arrow"></i>
-					</a>
-				</div>
-			</div>
-		</section>
-		<br><br>
-		<!--==================== ABOUT ====================-->
-		<section class="about section" id="about">
-			<h2 class="section__title">About Me</h2>
-			<span class="section__subtitle">My Introduction</span>
-			<div class="about__container container grid">
-				<img src="assets/img/about.png" alt="" class="about__img" />
-				<div class="about__data">
-					<p class="about__description">I'am a Web developer / Student, with extensive passion of learning new things.
-						<br>
-						<br>IDK how to describe myself but for you i am like a mad guy who writes some colourful code for no reason &#128516. (yeah i know still i am not a developer &#128540)</p>
-				</div>
-			</div>
-		</section>
-		<!--==================== SKILLS ====================-->
-		<section class="skills section" id="skills">
-			<h2 class="section__title">Skills</h2>
-			<span class="section__subtitle">My Developer Skills</span>
-			<div class="skills__container container grid">
-				<div>
-					<div class="skills__content skills__open">
-						<div class="skills__header"> <i class="uil uil-brackets-curly skills__icon"></i>
-							<div>
-								<h1 class="skills__title">Web Development</h1>
-								<span class="skills__subtitle">Yeah You Are Right, Judge Me From My Skills And Not From Certificates &#129308&#129307</span>
-							</div> 
-						</div>
-						<div class="skills__list grid">
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">HTML</h3>
-									<span class="skills__number">70%</span>
-								</div>
-								<div class="skills__bar"> <span class="skills__percentage skills__html"> </span>
-								</div>
-							</div>
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">CSS</h3>
-									<span class="skills__number">80%</span>
-								</div>
-								<div class="skills__bar"> <span class="skills__percentage skills__css"> </span>
-								</div>
-							</div>
-							<div class="skills__data">
-								<div class="skills__titles">
-									<h3 class="skills__name">JavaScript</h3>
-									<span class="skills__number">50%</span>
-								</div>
-								<div class="skills__bar"> <span class="skills__percentage skills__js"> </span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--==================== CONTACT ME ====================-->
-		<section class="contact section" id="contact">
-			<h2 class="section__title">Contact Me</h2>
-			<span class="section__subtitle">Get In Touch</span>
-			<div class="contact__container container grid">
-				<div>
-					<div class="contact__information"> <i class="uil uil-envelope contact__icon"></i>
-						<div>
-							<h3 class="contact__title">Email</h3>
-							<span class="contact__subtitle"><a href="mailto:admin@speedyloves.tech">admin@speedyloves.tech</a></span>
-						</div>
-					</div>
-					<div class="contact__information"> <i class="uil uil-map-marker contact__icon"></i>
-						<div>
-							<h3 class="contact__title">Location</h3>
-							<span class="contact__subtitle"><a href="https://goo.gl/maps/MAoU7qrGp3rdDU6q6" target="_blank">Shahada, India</a></span>
-						</div>
-					</div>
-				</div>
-				<hr />
-				<form action="https://formspree.io/f/xlezjwvy" class="contact__form grid" autocomplete="off" method="POST">
-					<div class="contact__inputs grid">
-						<div class="contact__content">
-							<input type="text" name="Name" id="name" placeholder="Name" class="contact__input" required/>
-						</div>
-						<div class="contact__content">
-							<input type="email" name="E-Mail" id="mail" placeholder="E-Mail" class="contact__input" required/>
-						</div>
-					</div>
-					<div class="contact__content">
-						<textarea name="Message" id="message" cols="0" rows="7" placeholder="Message" class="contact__input" required></textarea>
-					</div>
-					<div>
-						<button class="button button--flex" type="submit">Send Message <i class="uil uil-message"></i>
-						</button>
-					</div>
-				</form>
-			</div>
-		</section>
-	</main>
-	<!--==================== FOOTER ====================-->
-	<footer class="footer">
-		<div class="footer__bg">
-			<div class="footer__container container grid">
-				<div>
-					<h1 class="footer__title">Shabbir Ezzy</h1>
-					<span class="footer__subtitle">Web Developer</span>
-				</div>
-				<div class="footer__socials">
-					<a href="https://www.linkedin.com/in/shabbir260505/" target="_blank" class="footer__social"> <i class="uil uil-linkedin-alt"></i>
-					</a>
-					<a href="https://github.com/Shabbir260505/" target="_blank" class="footer__social"> <i class="uil uil-github-alt"></i>
-					</a>
-					<a href="https://www.instagram.com/ezzyshabbir05/" target="_blank" class="footer__social"> <i class="uil uil-instagram"></i>
-					</a>
-				</div>
-			</div>
-			<p class="footer__copy">&#169; Shabbir Ezzy. All Rights Reserved</p>
-		</div>
-	</footer>
+<body>
 
-	<!--==================== SCROLL TOP ====================-->
-	<a href="#" class="scrollup" id="scroll-up"> <i class="uil uil-arrow-up scrollup__icon"></i>
-	</a>
-	<!--==================== MAIN JS ====================-->
-	<script src="assets/js/main.js"></script>
+    <div class="preloader" id="preloader">
+        <div class="loader-content">
+            <div class="loader-circle"></div>
+            <span class="loading-text">Loading...</span>
+        </div>
+    </div>
+    <div class="mobile-warning-overlay" id="mobileWarning">
+        <div class="mobile-warning-content">
+            <h3 class="h3 title warning-title">Device Suggestion</h3>
+            <p class="warning-text">
+                For the best visual experience, I recommend viewing this portfolio on a
+                <strong>Laptop or Desktop</strong>.
+            </p>
+            <button class="btn btn-secondary" id="warningBtn">
+                <span class="span">I still want to continue</span>
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+        </div>
+    </div>
+
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text">shabbir.is-a.dev</span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li><a href="#home" class="navbar-link">Home</a></li>
+                    <li><a href="#about" class="navbar-link">About</a></li>
+                    <li><a href="#skills" class="navbar-link">Skills</a></li>
+                    <li><a href="#projects" class="navbar-link">Projects</a></li>
+                </ul>
+
+                <button class="cv-btn">
+                    <span class="span">Download CV</span>
+                </button>
+
+                <a href="#contact" class="btn">Contact Me</a>
+            </nav>
+
+            <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section class="hero" id="home">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle title">Full-Stack Developer</p>
+                        <h1 class="h1 hero-title title">Shabbir Ezzy</h1>
+                        <p class="hero-text">
+                            Specialized in Flutter mobile applications, React.js web development, and Firebase backend
+                            architecture.
+                        </p>
+                        <a href="#about" class="btn btn-primary">
+                            <span class="span">Know More</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="hero-banner">
+                        <div class="code-block">
+                            <pre><code><span class="kw">class</span> <span class="cls">Developer</span> {
+  <span class="kw">final</span> <span class="var">name</span> = <span class="str">"Shabbir Ezzy"</span>;
+  <span class="kw">final</span> <span class="var">role</span> = <span class="str">"Full-Stack Dev"</span>;
+  
+  <span class="cls">List</span>&lt;<span class="cls">String</span>&gt; <span class="var">skills</span> = [
+    <span class="str">'Flutter'</span>, <span class="str">'React.js'</span>,
+    <span class="str">'Firebase'</span>, <span class="str">'Python'</span>
+  ];
+  
+  <span class="kw">void</span> <span class="fn">buildAmazingApps</span>() {
+    <span class="fn">print</span>(<span class="str">'Let\'s create! 🚀'</span>);
+  }<span class="cursor">|</span></code></pre>
+                        </div>
+                        <img src="./assets/images/hero-shape-1.png" width="360" height="133" alt="shape"
+                            class="shape shape-1">
+                    </div>
+                    <img src="./assets/images/hero-shape-2.png" width="360" height="133" alt="shape"
+                        class="shape shape-2">
+                </div>
+            </section>
+
+            <section class="section about" id="about" aria-label="about">
+                <div class="container">
+                    <h2 class="h2 section-title title text-center reveal-element">About Me</h2>
+
+                    <div class="about-content">
+                        <div class="about-text-block reveal-element">
+                            <p class="about-text">
+                                I'm a developer from Shahada, Maharashtra, currently pursuing <strong>Bachelor of
+                                    Technology in Artificial Intelligence and Data Science</strong>. I'm mastering
+                                Flutter,
+                                React, and other backend technologies. I am currently working as Lead Developer at a
+                                student-led company, <strong>360 View Tech</strong>.
+                                <br><br>I believe the best apps come from personal necessity. Whether it's solving
+                                campus
+                                placement hurdles with <strong>PlaceTrix</strong> or managing shared expenses with
+                                <strong>Hissa</strong>, I turn real-world friction into smooth, digital experiences!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section skills" id="skills" aria-label="technical skills">
+                <div class="container">
+                    <h2 class="h2 section-title title text-center reveal-element">Technical Skills</h2>
+
+                    <div class="skills-grid">
+                        <div class="skill-card reveal-element stagger-delay">
+                            <h3 class="h3 title skill-title">App Development</h3>
+                            <p class="skill-description">
+                                Expertise in building cross-platform mobile applications with high performance and
+                                native-like experiences.
+                            </p>
+                            <div class="skill-tech-list">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card reveal-element stagger-delay">
+                            <h3 class="h3 title skill-title">Backend Architecture</h3>
+                            <p class="skill-description">
+                                Designing scalable serverless architectures, managing real-time databases and cloud
+                                functions.
+                            </p>
+                            <div class="skill-tech-list">
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Node.js</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card reveal-element stagger-delay">
+                            <h3 class="h3 title skill-title">Web & Scripting</h3>
+                            <p class="skill-description">
+                                Building interactive modern web interfaces and utility scripts for automation and data
+                                processing.
+                            </p>
+                            <div class="skill-tech-list">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card reveal-element stagger-delay">
+                            <h3 class="h3 title skill-title">Tools & DevOps</h3>
+                            <p class="skill-description">
+                                Proficient in version control, UI design collaboration, and development environments.
+                            </p>
+                            <div class="skill-tech-list">
+                                <span class="tech-tag">Git</span>
+                                <span class="tech-tag">Figma</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card reveal-element stagger-delay">
+                            <h3 class="h3 title skill-title">Database Design</h3>
+                            <p class="skill-description">
+                                Structured NoSQL and SQL database modeling optimized for complex queries and
+                                performance.
+                            </p>
+                            <div class="skill-tech-list">
+                                <span class="tech-tag">Firestore</span>
+                                <span class="tech-tag">SQL</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-card reveal-element stagger-delay">
+                            <h3 class="h3 title skill-title">Emerging Tech</h3>
+                            <p class="skill-description">
+                                Exploring new frontiers in blockchain and advanced Web3 frameworks.
+                            </p>
+                            <div class="skill-tech-list">
+                                <span class="tech-tag">Blockchain</span>
+                                <span class="tech-tag">Web3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section projects" id="projects" aria-label="projects">
+                <div class="container">
+                    <h2 class="h2 section-title title text-center reveal-element">Featured Projects</h2>
+
+                    <div class="projects-grid">
+                        <div class="project-card reveal-element">
+                            <div class="project-number">01</div>
+                            <h3 class="h3 title project-title">PlaceTrix</h3>
+                            <p class="project-description">
+                                A comprehensive placement management system for educational institutions featuring
+                                real-time dashboards, automated workflows, student tracking, company management, and
+                                placement analytics. Built with Flutter and Firebase.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">ReactJS</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Google Cloud</span>
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.viewtech360.placetrix"
+                                target="_blank" class="btn btn-small">
+                                <span class="span">Know More</span>
+                            </a>
+                        </div>
+
+                        <div class="project-card reveal-element">
+                            <div class="project-number">02</div>
+                            <h3 class="h3 title project-title">Hissa - Expense Splitter</h3>
+                            <p class="project-description">
+                                Mobile application for splitting bills and managing group expenses. Features include
+                                expense tracking, automated calculations, payment history, group management, and smart
+                                settlement suggestions.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Firebase</span>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-small">
+                                <span class="span">Know More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section contact" id="contact">
+                <div class="container">
+                    <div class="contact-content reveal-element">
+                        <div class="contact-text-wrapper">
+                            <h2 class="h2 title contact-title">Let's Work Together</h2>
+                            <p class="contact-text">
+                                Have a project in mind? Looking for a developer to build production-ready apps with
+                                Flutter, Firebase, and clean architecture? Let's connect and bring your ideas to life.
+                            </p>
+                        </div>
+
+                        <div class="contact-form-wrapper">
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Your Name</label>
+                                    <input type="text" id="name" name="name" class="form-input" placeholder="John Doe"
+                                        required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Your Email</label>
+                                    <input type="email" id="email" name="email" class="form-input"
+                                        placeholder="john@example.com" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Your Message</label>
+                                    <textarea id="message" name="message" class="form-textarea"
+                                        placeholder="Tell me about your project..." rows="5" required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-secondary">
+                                    <span class="span">Send Message</span>
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </form>
+                            <div class="form-message" id="formMessage"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-text">Shabbir Ezzy</span>
+                    </a>
+                    <p class="footer-text">
+                        Specialized in Flutter mobile applications, React.js web development, and Firebase backend
+                        architecture.
+                    </p>
+                    <ul class="social-list">
+                        <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                        <li><a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                        <li><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    </ul>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title title">Contact Info</p>
+                        <address class="footer-text">Shahada, Maharashtra<br>India</address>
+                    </li>
+                    <li><a href="mailto:ezzyshabbir05@gmail.com" class="email">ezzyshabbir05@gmail.com</a></li>
+                    <li><a href="tel:+91 8956752053" class="call">+91 8956752053</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Shabbir Ezzy, All Rights Reserved</p>
+            </div>
+
+            <img src="./assets/images/footer-shape-1.png" width="245" height="165" loading="lazy" alt="shape"
+                class="shape shape-1">
+            <img src="./assets/images/footer-shape-2.png" width="138" height="316" loading="lazy" alt="shape"
+                class="shape shape-2">
+            <img src="./assets/images/footer-shape-3.png" width="346" height="92" loading="lazy" alt="shape"
+                class="shape shape-3">
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("9-AEKu5gn-jSulG1N");
+        })();
+    </script>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
